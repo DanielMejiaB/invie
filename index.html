@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+    <meta charset="utf-8">
+    <head>
+        <title>Invie - Tus mejores guitarras!!</title>
+        <link rel="stylesheet" type="text/css" href="css/invie.css">
+        <link href="https://fonts.googleapis.com/css?family=Allerta|Montserrat" rel="stylesheet">
+
+    </head>
+    <body>
+        <section id="portada" class="portada background">
+            <header id="header" class="header contenedor"> 
+            <!-- HEADER -->
+                <!-- LOGOTIPO -->
+                <a href="index.html">
+                    
+                <figure class="logotipo">
+                    <img src="images/invie.png" width="186" height="60" alt="Invie logotipo">
+                </figure>
+                </a>
+
+            <!-- menú -->
+                <nav class="menu">
+                     <ul>
+                        <li>
+                            <a href="index.html">Home</a>   
+                        </li>
+                        <li>
+                            <a href="#guitarras">Guitarras</a>   
+                        </li>
+                        <li>
+                            <a href="precios.html">Precios</a>   
+                        </li>
+                         
+                     </ul>            
+                </nav>
+            </header>
+            <div class="contenedor">
+                <!-- PORTADA -->
+                <!-- TITULO -->
+                <h1 class="titulo">Guitarras <span>invie</span>sibles</h1>
+                <h3 class="title-a">Sé la estrella de rock que siempre quisiste ser
+                </h3>
+
+                <a href="#guitarras" class="button">Conoce más</a> 
+            </div>
+            <!-- RESUMEN -->
+            <!-- BOTON -->
+       
+
+        </section>
+        <section id="guitarras" class="contenedor">
+            <!-- GUITARRAS -->
+            <!-- TITULO -->
+            <h2>Nuestras guitarras</h2>
+            <!-- GUITARRA 1 -->
+            <article class="guitarra">
+                <img class="right" src="images/invie-acustica.png" alt="Guitarra acustica" width="350">
+                <div class="con1">
+                    
+                    <h3 class="title-b">Invie Acústica</h3>
+                    <ol>
+                        <li>Estilo vintage</li>
+                        <li>Incluye estuche invisible de aluminio</li>
+                        <li>Madera pura</li>
+                    </ol>
+                </div>    
+            </article>
+            <article class="guitarra b">
+                <img class="left" src="images/invie-classic.png" alt="Guitarra clasica" width="350">
+                <div class="con2">    
+                    <h3 class="title-b">Invie Classic </h3>
+                    <ol>
+                        <li>Estilo vintage</li>
+                        <li>Liviana</li>
+                        <li>Inicia tu camino como rockstar</li>
+                    </ol>
+                </div>
+            </article>
+            <!-- UITARRA 2 -->
+        </section>
+        <footer class="footer">
+            <div class="contenedor"> 
+                <div class="contacto">
+                    <img src="images/invie-white.png" alt="logotipo blanco">
+                    <a href="tel:+573173311973"><strong>Teléfono</strong><span>3173311973</span></a>
+                    <a href="mailto:contacto@invie.com"><strong>E-mail</strong><span>contacto@invie.com</span></a>
+                </div>
+                <form class="formulario">
+                <div class="col1">
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" name="nombre" required id="nombre">
+                    <label for="email">E-mail: </label>
+                    <input type="email" name="email" required id="email">
+                    <div class="sexo">    
+                        <label for="mujer">
+                            <input type="radio" id="mujer" name="sexo" value="mujer" checked >Mujer
+                        </label>
+                        <label for="hombre">
+                            <input type="radio" id="hombre" name="sexo" value="hombre">Hombre
+                        </label>
+                    </div>
+                    <div class="intereses">
+
+                        <label for="cotizacion">
+                            <input type="checkbox" id="cotizacion" name="intereses" value="cotizacion" checked>
+                            Cotización
+                        </label>
+                        <label for="reclamos">
+                            <input type="checkbox" id="reclamos" name="intereses" value="reclamos">
+                            Reclamos
+                        </label>
+                        <label for="comentarios">
+                            <input type="checkbox" id="comentarios" name="intereses" value="comentarios">
+                            Comentarios
+                        </label>
+                        <label for="otros">
+                            <input type="checkbox" id="otros" name="intereses" value="otros">
+                            Otros
+                        </label>
+
+                    </div>
+                </div>
+                    <div class="col2">
+                        <label for="comentarios">Comentarios</label>
+                        <textarea name="comentarios" id="comentarios" cols="30" rows="7"></textarea>
+                        <input class="button" type="submit" value="Enviar">
+                    </div>
+                    
+                </form>
+            </div>
+        </footer>
+    </body>
+</html>
